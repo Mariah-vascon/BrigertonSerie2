@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    background-color: #f8f5f9;
+    color: #3a2c3f;
+    font-family: Arial, sans-serif;
+}
+
+
+.cabecalho {
+    background-color: #4b2e59;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.links li a:hover {
+    color: #e7c6ff;
+    cursor: pointer;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d8bfd8;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.tituloBanner {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4b2e59;
+}
+
+
+.subTituloBanner {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.imagemBanner img {
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px;
+}
+
+
+
+.sinopse {
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #a053dd;
+}
+
+
+.sinopse h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.sinopse p {
+    margin-top: 15px;
+}
+
+.temporada1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #ab51b8;
+}
+
+
+.temporada2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #812c8e;
+    background-color: #d8bfd8;
+}
+
+
+.temporada3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #812c8e;
+}
+
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4b2e59;
+    background-color: #e1cde1;
+}
+
+
+.destaques {
+    background-color: #f3e6f7;
+    padding: 100px;
+    text-align: center;
+}
+
+
+.fundoDestaques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+
+.fichaTecnica {
+    display: flex;
+    flex-direction: column;
+    background-color: #d8bfd8;
+}
+
+
+.historia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3cce3;
+}
+
+
+.destaque1,
+.destaque2,
+.destaque3 {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0px 4px 10px;
+    text-align: center;
+}
+
+
+.destaque1 img,
+.destaque2 img,
+.destaque3 img {
+    width: 350px;
+    height: 300px;
+}
+
+
+
+.rodape {
+    background-color: #4b2e59;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+.galeriaPersonagens div img{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.galeriaBastidores {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.galeriaPersonagens {
+    text-align: center;
+    font-size: 30px;
+    background-color: #e1cde1;
+}
+
+
+.galeriaCenarios {
+    text-align: center;
+    font-size: 30px;
+    background-color: #e1cde1;
+}
+
+
+.galeriaBastidores {
+    text-align: center;
+    font-size: 30px;
+    background-color: #e1cde1;
+}
+
+
+.galeriaCenarios div img{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.galeriaBastidores div img{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.redesSociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1cde1;
+}
+
+
+.formContato{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+
+.formContato input{
+    border-radius: 30px;
+}
+
+.btnFormAvaliacao{
+    background-color: #812c8e;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
